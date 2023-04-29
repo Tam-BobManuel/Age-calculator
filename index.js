@@ -63,3 +63,24 @@ submit.click(function(event) {
         
 
   });
+
+        // OMMIT THE CODE BELOW THIS IS ONLY DONE TO MAKE THIS REPO NOT SHOW AS HTML LOL NOT THAT IT MATTERS I'M JUST PETTY AS TO WHY HTML BEATS JS BY 0.4%
+const dayInput = $('#day');
+const monthInput = $('#month');
+const yearInput = $('#year');
+const hourInput = $('#hour');
+
+    // error messages under inputs
+const errorDay = $('.error-day');
+const errorMonth = $('.error-month');
+const errorYear = $('.error-year');
+
+    // submit button
+const submit = $('#submitBtn');
+
+
+    // results
+let yearResults = $('#years-result');
+let monthResults = $('#months-result');
+let dayResults = $('#days-result');
+let hourResults = $('#hours-result');
